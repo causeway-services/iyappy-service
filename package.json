@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Finite source-bounded Lakota practice, local listening, and portable progress.",
+  "description": "iYappy multilingual language-learning product, initially serving a source-qualified Lakota course.",
   "scripts": {
     "build": "static-site-publisher build content public --config=victor.config.mjs",
     "deploy": "npm run build && wrangler deploy",
