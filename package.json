@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Finite, source-bounded Lakota practice with portable learner progress and readable practice without JavaScript.",
+  "description": "Finite source-bounded Lakota practice, local listening, and portable progress.",
   "scripts": {
     "build": "static-site-publisher build content public --config=victor.config.mjs",
-    "deploy": "npm run build && wrangler deploy"
+    "deploy": "npm run build && wrangler deploy",
+    "test": "node --test course/*.test.mjs"
   },
   "dependencies": {
     "@red-cup-engineering/education-platform-service": "workspace:*",

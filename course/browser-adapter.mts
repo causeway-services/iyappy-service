@@ -1,4 +1,5 @@
 import { iyappyCheckers } from './registry.mts';
+import { mountListeningLab } from './listening-lab.mjs';
 
 function insertAtSelection(field: HTMLInputElement, value: string): void {
   const start = field.selectionStart ?? field.value.length;
@@ -13,6 +14,7 @@ export const iyappyTheme = {
   checkers: iyappyCheckers,
   exerciseFenceLabels: ['iyappy-exercise'],
   presentation: { streak: false, halls: false, recallPercent: false, progressCount: true },
+  mountPresentation({ root }: { root: Document }) { mountListeningLab({ root }); },
   createAnswerForm(document: Document, exercise: { kind: string; spec: { choices?: string[] } }) {
     const form = document.createElement('div');
     const label = document.createElement('label');
