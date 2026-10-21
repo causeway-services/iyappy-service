@@ -21,8 +21,8 @@ test('catalog structure handles two distinct languages without mixing identities
   const courses = [...AVAILABLE_COURSES, latin];
   assert.equal(validateAvailableCourses(courses), courses);
   const html = availableCoursesHtml(courses);
-  assert.match(html, /hreflang="la"/);
-  assert.match(html, /hreflang="lkt"/);
+  assert.match(html, /href="\/learn\/latin\/"/);
+  assert.doesNotMatch(html, /hreflang=/);
   assert.match(html, /href="\/learn\/latin\/"/);
 });
 
