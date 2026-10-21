@@ -56,7 +56,7 @@ export function validateAvailableCourses(courses) {
 export function availableCoursesHtml(courses = AVAILABLE_COURSES) {
   validateAvailableCourses(courses);
   const list = courses.map((course) =>
-    '<li><a href="' + escaped(course.href) + '" hreflang="' + escaped(course.targetLanguage) +
+    '<li><a href="' + escaped(course.href) +
     '"><strong>' + escaped(course.title) + '</strong></a> — ' + escaped(course.description) +
     ' <small>Source: ' + escaped(course.sourceLabel) + '</small></li>'
   ).join('');
