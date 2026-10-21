@@ -22,8 +22,8 @@ test('catalog structure handles two distinct languages without mixing identities
   assert.equal(validateAvailableCourses(courses), courses);
   const html = availableCoursesHtml(courses);
   assert.match(html, /href="\/learn\/latin\/"/);
+  assert.match(html, /Lakȟótiyapi/);
   assert.doesNotMatch(html, /hreflang=/);
-  assert.match(html, /href="\/learn\/latin\/"/);
 });
 
 test('unadmitted, malformed or duplicated courses cannot appear in the public catalog', () => {
