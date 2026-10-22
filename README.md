@@ -1,5 +1,12 @@
 # iYappy — language learning across languages
 
+<!-- 561-group-standards:badges:start -->
+[![Causeway Services](https://img.shields.io/badge/561%20Group-Causeway%20Services-115e69)](https://github.com/causeway-services)
+[![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-115e69)](LICENSE)
+[![Indigenous data: CARE](https://img.shields.io/badge/Indigenous%20data-CARE-4b6f44)](https://github.com/causeway-services/.github/blob/main/GOVERNANCE.md)
+[![Tips welcome](https://img.shields.io/badge/tips-welcome-d4a017)](https://github.com/561-group/.github/blob/main/TIPS.md)
+<!-- 561-group-standards:badges:end -->
+
 iYappy is Causeway's public, multilingual language-learning product, with the explicit goal to **meet then beat Duolingo and its language-learning peers on measured learner outcomes**. **Lakȟótiyapi / Lakota is the first available course, not the whole product.** The public domain is https://iyappy.561.group/.
 
 The authoritative public program lives at [Public Language Education](https://github.com/causeway-services/public-education-services-section/blob/main/services/public-language-education-services-section/README.md). Read the [product contract](docs/product-contract-2026-10-20.md) and [product requirement/acceptance issue #3](https://github.com/causeway-services/iyappy-service/issues/3) before extending the app.
